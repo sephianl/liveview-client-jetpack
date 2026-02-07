@@ -64,5 +64,19 @@ internal fun colorSchemeFromThemeData(
         outlineVariant = themeData["outlineVariant"]?.toString()?.toColor()
             ?: defaultColors.outlineVariant,
         scrim = themeData["scrim"]?.toString()?.toColor() ?: defaultColors.scrim,
+        surfaceBright = themeData["surfaceBright"]?.toString()?.toColor()
+            ?: defaultColors.surfaceBright,
+        surfaceDim = themeData["surfaceDim"]?.toString()?.toColor()
+            ?: defaultColors.surfaceDim,
+        surfaceContainer = themeData["surfaceContainer"]?.toString()?.toColor()
+            ?: defaultColors.surfaceContainer,
+        surfaceContainerHigh = themeData["surfaceContainerHigh"]?.toString()?.toColor()
+            ?: defaultColors.surfaceContainerHigh,
+        surfaceContainerHighest = themeData["surfaceContainerHighest"]?.toString()?.toColor()
+            ?: defaultColors.surfaceContainerHighest,
+        surfaceContainerLow = themeData["surfaceContainerLow"]?.toString()?.toColor()
+            ?: defaultColors.surfaceContainerLow,
+        surfaceContainerLowest = themeData["surfaceContainerLowest"]?.toString()?.toColor()
+            ?: defaultColors.surfaceContainerLowest,
     )
 }
